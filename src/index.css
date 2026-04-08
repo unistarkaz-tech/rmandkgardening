@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&family=Lato:wght@300;400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,26 +6,26 @@
 
 @layer base {
   :root {
-    --background: 140 35% 88%;
-    --foreground: 24 10% 20%;
+    --background: 148 40% 22%;
+    --foreground: 0 0% 100%;
 
-    --card: 120 20% 98%;
-    --card-foreground: 24 10% 20%;
+    --card: 148 35% 18%;
+    --card-foreground: 0 0% 100%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 24 10% 20%;
+    --popover: 148 35% 18%;
+    --popover-foreground: 0 0% 100%;
 
-    --primary: 146 51% 36%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 80 65% 55%;
+    --primary-foreground: 148 40% 12%;
 
-    --secondary: 145 42% 82%;
-    --secondary-foreground: 146 51% 20%;
+    --secondary: 148 30% 30%;
+    --secondary-foreground: 80 65% 55%;
 
-    --muted: 120 15% 95%;
-    --muted-foreground: 24 5% 45%;
+    --muted: 148 30% 16%;
+    --muted-foreground: 145 20% 70%;
 
-    --accent: 199 72% 63%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 42 95% 55%;
+    --accent-foreground: 148 40% 12%;
 
     --earth: 22 42% 39%;
     --earth-foreground: 0 0% 100%;
@@ -33,20 +33,20 @@
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 120 15% 88%;
-    --input: 120 15% 88%;
-    --ring: 146 51% 36%;
+    --border: 148 25% 28%;
+    --input: 148 25% 28%;
+    --ring: 80 65% 55%;
 
     --radius: 0.75rem;
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 148 35% 18%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 80 65% 55%;
+    --sidebar-primary-foreground: 148 40% 12%;
+    --sidebar-accent: 148 30% 25%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 148 25% 28%;
+    --sidebar-ring: 80 65% 55%;
 
     --font-heading: 'Poppins', sans-serif;
     --font-body: 'Lato', sans-serif;
