@@ -15,7 +15,7 @@ const HeroSection = () => (
         href="#contact"
         className="inline-block bg-accent text-accent-foreground px-8 py-4 rounded-lg text-lg font-bold hover:scale-105 transition-transform shadow-lg"
       >
-        Get Your Free Quote
+        Get Your Quote
       </a>
     </div>
   </section>

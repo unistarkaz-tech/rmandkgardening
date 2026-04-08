@@ -25,7 +25,7 @@ const Navbar = () => {
             </a>
           ))}
           <a href="#contact" className="bg-accent text-accent-foreground px-5 py-2 rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity">
-            Get a Free Quote
+            Get a Quote
           </a>
         </div>
         <button className="md:hidden" onClick={() => setOpen(!open)}>
@@ -41,7 +41,7 @@ const Navbar = () => {
           ))}
           <div className="px-6 pt-2">
             <a href="#contact" onClick={() => setOpen(false)} className="block text-center bg-accent text-accent-foreground px-5 py-2 rounded-lg font-semibold">
-              Get a Free Quote
+              Get a Quote
             </a>
           </div>
         </div>
