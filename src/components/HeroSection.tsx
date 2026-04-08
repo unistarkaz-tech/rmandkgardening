@@ -1,4 +1,4 @@
-import heroImg from "@/assets/hero-garden.jpg";
+import heroImg from "@/assets/gardener-bg.png";
 
 const HeroSection = () => (
   <section id="hero" className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
