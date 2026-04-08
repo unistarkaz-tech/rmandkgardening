@@ -97,7 +97,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="font-semibold text-sm">Phone</p>
-                <p className="text-muted-foreground">020-xxxx-xxxx</p>
+                <p className="text-muted-foreground">07397 666 008</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
