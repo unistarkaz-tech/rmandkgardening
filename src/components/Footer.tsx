@@ -26,9 +26,12 @@ const Footer = () => (
         <div>
           <h4 className="font-heading font-bold mb-4 text-foreground">Follow Us</h4>
           <div className="flex gap-3">
-            {["Instagram", "Facebook", "Google"].map((s) => (
-              <a key={s} href="#" className="bg-secondary text-muted-foreground text-xs font-semibold px-4 py-2 rounded-full hover:text-primary hover:bg-primary/10 transition-all duration-300">
-                {s}
+            {[
+              { name: "Instagram", url: "https://www.instagram.com/rmkgardening/" },
+              { name: "Facebook", url: "https://www.facebook.com/p/RMK-Gardning-Services-100050372993717/" },
+            ].map((s) => (
+              <a key={s.name} href={s.url} target="_blank" rel="noopener noreferrer" className="bg-secondary text-muted-foreground text-xs font-semibold px-4 py-2 rounded-full hover:text-primary hover:bg-primary/10 transition-all duration-300">
+                {s.name}
               </a>
             ))}
           </div>
