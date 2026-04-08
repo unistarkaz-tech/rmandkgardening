@@ -1,32 +1,40 @@
+import { Phone } from "lucide-react";
+
 const Footer = () => (
-  <footer className="bg-foreground text-primary-foreground py-12">
+  <footer className="bg-muted border-t border-border py-14">
     <div className="container max-w-5xl">
       <div className="grid md:grid-cols-3 gap-10 mb-10">
         <div>
-          <h3 className="font-heading text-xl font-bold mb-3">
-            RM&K <span className="text-secondary">Gardening</span>
+          <h3 className="font-heading text-2xl font-black mb-3">
+            <span className="text-primary">RM&K</span>{" "}
+            <span className="text-foreground">Gardening</span>
           </h3>
-          <p className="text-primary-foreground/70 text-sm">Bringing Life Back to Your Garden.</p>
+          <p className="text-muted-foreground text-sm mb-4">Bringing Life Back to Your Garden.</p>
+          <a href="tel:07397666008" className="inline-flex items-center gap-2 text-primary font-bold text-sm">
+            <Phone size={14} /> 07397 666008
+          </a>
         </div>
         <div>
-          <h4 className="font-heading font-semibold mb-3">Quick Links</h4>
-          <div className="flex flex-col gap-2 text-sm text-primary-foreground/70">
-            <a href="#hero" className="hover:text-secondary transition-colors">Home</a>
-            <a href="#services" className="hover:text-secondary transition-colors">Services</a>
-            <a href="#gallery" className="hover:text-secondary transition-colors">Gallery</a>
-            <a href="#contact" className="hover:text-secondary transition-colors">Contact</a>
+          <h4 className="font-heading font-bold mb-4 text-foreground">Quick Links</h4>
+          <div className="flex flex-col gap-2.5 text-sm text-muted-foreground">
+            <a href="#hero" className="hover:text-primary transition-colors duration-300">Home</a>
+            <a href="#services" className="hover:text-primary transition-colors duration-300">Services</a>
+            <a href="#gallery" className="hover:text-primary transition-colors duration-300">Gallery</a>
+            <a href="#contact" className="hover:text-primary transition-colors duration-300">Contact</a>
           </div>
         </div>
         <div>
-          <h4 className="font-heading font-semibold mb-3">Follow Us</h4>
-          <div className="flex gap-4 text-sm text-primary-foreground/70">
-            <a href="#" className="hover:text-secondary transition-colors">Instagram</a>
-            <a href="#" className="hover:text-secondary transition-colors">Facebook</a>
-            <a href="#" className="hover:text-secondary transition-colors">Google</a>
+          <h4 className="font-heading font-bold mb-4 text-foreground">Follow Us</h4>
+          <div className="flex gap-3">
+            {["Instagram", "Facebook", "Google"].map((s) => (
+              <a key={s} href="#" className="bg-secondary text-muted-foreground text-xs font-semibold px-4 py-2 rounded-full hover:text-primary hover:bg-primary/10 transition-all duration-300">
+                {s}
+              </a>
+            ))}
           </div>
         </div>
       </div>
-      <div className="border-t border-primary-foreground/10 pt-6 text-center text-sm text-primary-foreground/50">
+      <div className="border-t border-border pt-6 text-center text-sm text-muted-foreground">
         © 2024 RM&K Gardening. All rights reserved.
       </div>
     </div>
