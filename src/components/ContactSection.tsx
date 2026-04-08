@@ -14,7 +14,7 @@ const ContactSection = () => {
   return (
     <section id="contact" className="py-20 bg-muted">
       <div className="container max-w-5xl">
-        <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-4">Request a Free Quote Today</h2>
+        <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-4">Request a Quote Today</h2>
         <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
           Let RM&K Gardening handle your outdoor transformation. Fill in your details below, and we'll get back to you promptly!
         </p>
@@ -85,7 +85,7 @@ const ContactSection = () => {
                   />
                 </div>
                 <button type="submit" className="w-full bg-accent text-accent-foreground py-3.5 rounded-lg font-bold text-lg hover:opacity-90 transition-opacity">
-                  Get My Free Quote
+                  Get My Quote
                 </button>
               </form>
             )}
